@@ -4,7 +4,7 @@
 #
 Name     : rope
 Version  : 0.10.7
-Release  : 4
+Release  : 5
 URL      : https://pypi.python.org/packages/7e/fc/702c0293b57edd4d70146e36f9413c40339a701a43c8fa6918fb9d834913/rope-0.10.7.tar.gz
 Source0  : https://pypi.python.org/packages/7e/fc/702c0293b57edd4d70146e36f9413c40339a701a43c8fa6918fb9d834913/rope-0.10.7.tar.gz
 Summary  : a python refactoring library...

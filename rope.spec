@@ -4,7 +4,7 @@
 #
 Name     : rope
 Version  : 0.16.0
-Release  : 20
+Release  : 21
 URL      : https://files.pythonhosted.org/packages/e9/5c/59932a44f0f2b2c9e116682f11cac3b06c45ce8dca5eef355d8774d4b79c/rope-0.16.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e9/5c/59932a44f0f2b2c9e116682f11cac3b06c45ce8dca5eef355d8774d4b79c/rope-0.16.0.tar.gz
 Summary  : a python refactoring library...
@@ -17,9 +17,28 @@ BuildRequires : buildreq-distutils3
 
 %description
 .. _GitHub python-rope / rope: https://github.com/python-rope/rope
+
+
 ========================================
-rope, a python refactoring library ...
+ rope, a python refactoring library ...
 ========================================
+
+
+Overview
+========
+
+`Rope`_ is a python refactoring library.
+
+.. _`rope`: https://github.com/python-rope/rope
+
+
+Notes
+============
+
+* Nick Smith <nicks@fastmail.fm> takes over maintaining rope. Many thanks to
+  Matej Cepl for his work maintaining rope for the past few years!!
+* Partial Python3 support, please file bugs and contribute patches if you
+  encounter gaps.
 
 %package license
 Summary: license components for the rope package.
@@ -42,6 +61,7 @@ python components for the rope package.
 Summary: python3 components for the rope package.
 Group: Default
 Requires: python3-core
+Provides: pypi(rope)
 
 %description python3
 python3 components for the rope package.
@@ -56,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1578945775
+export SOURCE_DATE_EPOCH=1583220549
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar

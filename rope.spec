@@ -6,7 +6,7 @@
 #
 Name     : rope
 Version  : 0.17.0
-Release  : 23
+Release  : 24
 URL      : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
 Source1  : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz.asc

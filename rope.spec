@@ -5,11 +5,11 @@
 # Source0 file verified with key 0xE09FEF25D96484AC (mcepl@suse.cz)
 #
 Name     : rope
-Version  : 0.17.0
-Release  : 24
-URL      : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
-Source1  : https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz.asc
+Version  : 0.18.0
+Release  : 25
+URL      : https://files.pythonhosted.org/packages/55/50/8f9872255a2e251203991417fe6501ac2673a71613f79098d61b45733dbc/rope-0.18.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/55/50/8f9872255a2e251203991417fe6501ac2673a71613f79098d61b45733dbc/rope-0.18.0.tar.gz
+Source1  : https://files.pythonhosted.org/packages/55/50/8f9872255a2e251203991417fe6501ac2673a71613f79098d61b45733dbc/rope-0.18.0.tar.gz.asc
 Summary  : a python refactoring library...
 Group    : Development/Tools
 License  : LGPL-3.0
@@ -52,15 +52,15 @@ python3 components for the rope package.
 
 
 %prep
-%setup -q -n rope-0.17.0
-cd %{_builddir}/rope-0.17.0
+%setup -q -n rope-0.18.0
+cd %{_builddir}/rope-0.18.0
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1588713798
+export SOURCE_DATE_EPOCH=1602176348
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -76,7 +76,7 @@ python3 setup.py build
 export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/rope
-cp %{_builddir}/rope-0.17.0/COPYING %{buildroot}/usr/share/package-licenses/rope/a8a12e6867d7ee39c21d9b11a984066099b6fb6b
+cp %{_builddir}/rope-0.18.0/COPYING %{buildroot}/usr/share/package-licenses/rope/a8a12e6867d7ee39c21d9b11a984066099b6fb6b
 python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :

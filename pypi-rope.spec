@@ -4,7 +4,7 @@
 #
 Name     : pypi-rope
 Version  : 1.2.0
-Release  : 46
+Release  : 47
 URL      : https://files.pythonhosted.org/packages/7a/46/412e491b73bb5e906178677917395b6437b7914576a85468fad22d575e32/rope-1.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/46/412e491b73bb5e906178677917395b6437b7914576a85468fad22d575e32/rope-1.2.0.tar.gz
 Summary  : a python refactoring library...

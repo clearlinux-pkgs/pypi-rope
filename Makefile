@@ -1,5 +1,5 @@
 PKG_NAME := pypi-rope
-URL = https://files.pythonhosted.org/packages/ed/1d/c9edd51688fb59e8b03ec23d76f2cea5d8cda809765aa5bf389bfcfd23a9/rope-1.5.0.tar.gz
+URL = https://files.pythonhosted.org/packages/fc/87/e79850437d5b44d92d9f5fd0034c80381bb1298fe7c10b123f8a410ff96d/rope-1.5.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

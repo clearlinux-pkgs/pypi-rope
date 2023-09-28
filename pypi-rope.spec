@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-rope
-Version  : 1.9.0
-Release  : 58
-URL      : https://files.pythonhosted.org/packages/3d/1f/d61b1e57a148cbc7c0d01437df44d276bed97bf043efb81abbeba1ba0a8c/rope-1.9.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/3d/1f/d61b1e57a148cbc7c0d01437df44d276bed97bf043efb81abbeba1ba0a8c/rope-1.9.0.tar.gz
+Version  : 1.10.0
+Release  : 59
+URL      : https://files.pythonhosted.org/packages/3e/bc/821e7c8e556a13014702fb81ae97da868fbbe0bab8cc38d9600309fabf91/rope-1.10.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/3e/bc/821e7c8e556a13014702fb81ae97da868fbbe0bab8cc38d9600309fabf91/rope-1.10.0.tar.gz
 Summary  : a python refactoring library...
 Group    : Development/Tools
 License  : LGPL-3.0 LGPL-3.0-or-later
@@ -55,10 +55,10 @@ python3 components for the pypi-rope package.
 
 
 %prep
-%setup -q -n rope-1.9.0
-cd %{_builddir}/rope-1.9.0
+%setup -q -n rope-1.10.0
+cd %{_builddir}/rope-1.10.0
 pushd ..
-cp -a rope-1.9.0 buildavx2
+cp -a rope-1.10.0 buildavx2
 popd
 
 %build
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1688055723
+export SOURCE_DATE_EPOCH=1695915926
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
